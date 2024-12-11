@@ -25,7 +25,7 @@ class Conti( Core ):
             for s in load_div_scene:
                 div_scenes.append([s[1], s[2]])
 
-        sd_server_url = 'http://10.0.80.94:7861'
+        sd_server_url = 'http://10.0.80.181:7861'
 
         prompt = "이 시스템은 유능한 시나리오 축약 전문가입니다."
         prompt += "다음에 오는 내용을 영어로 한 문장으로 압축해서 stable diffusion 프롬프트를 작성해주세요."
